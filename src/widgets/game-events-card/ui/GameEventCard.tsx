@@ -1,4 +1,9 @@
-import { selectGameRoundStatus, type IGameEvent } from "@/entities/game";
+import {
+  selectGameRoundStatus,
+  selectGameFirstEvent,
+  selectGameSecondEvent,
+  type IGameEvent,
+} from "@/entities/game";
 import { useAppSelector } from "@/shared/lib";
 import { AnimatePresence, motion, type MotionProps } from "framer-motion";
 import cn from "classnames";
@@ -6,9 +11,29 @@ import { CorrectedDate } from "@/shared/helpers";
 
 export default function GameEventCard({
   event,
+  firstEvent,
+  secondEvent,
   ...props
-}: { event: IGameEvent } & MotionProps & React.HTMLAttributes<HTMLDivElement>) {
+}: {
+  event: IGameEvent;
+  firstEvent?: boolean;
+  secondEvent?: boolean;
+} & MotionProps &
+  React.HTMLAttributes<HTMLDivElement>) {
   const roundStatus = useAppSelector(selectGameRoundStatus);
+  const storeFirst = useAppSelector(selectGameFirstEvent);
+  const storeSecond = useAppSelector(selectGameSecondEvent);
+
+  const firstIsLater =
+    storeFirst && storeSecond
+      ? Number(storeFirst.date.slice(0, 4)) >
+        Number(storeSecond.date.slice(0, 4))
+      : false;
+  const secondIsLater =
+    storeFirst && storeSecond
+      ? Number(storeSecond.date.slice(0, 4)) >
+        Number(storeFirst.date.slice(0, 4))
+      : false;
 
   return (
     <motion.div
@@ -42,20 +67,52 @@ export default function GameEventCard({
           {event.description}
         </p>
 
-        <div className="min-h-15">
+        <div className="min-h-23">
           <AnimatePresence>
             {roundStatus !== "idle" && (
-              <motion.div
-                initial={{ opacity: 0, scale: 0.5 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.5 }}
-                transition={{ duration: 0.4, ease: "easeInOut" }}
-                className=""
-              >
-                <div className="bg-linear-to-r from-indigo-500 to-purple-500 border-2 border-white/30 shadow-xl shadow-indigo-600/60 rounded-2xl p-4 text-center text-white text-xl font-bold">
-                  {CorrectedDate(event.date)}
-                </div>
-              </motion.div>
+              <>
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.5 }}
+                  transition={{ duration: 0.4, ease: "easeInOut" }}
+                  className=""
+                >
+                  <div
+                    className={cn(
+                      {
+                        "bg-linear-to-r from-indigo-500 to-purple-500 border-2 border-white/30 shadow-xl shadow-indigo-600/60 text-white":
+                          !firstEvent && !secondEvent,
+                      },
+
+                      firstEvent &&
+                        (firstIsLater
+                          ? "bg-emerald-500 border-emerald-300 shadow-emerald-600/40 text-white"
+                          : "bg-red-500 border-red-300 shadow-red-600/40 text-white"),
+
+                      secondEvent &&
+                        (secondIsLater
+                          ? "bg-emerald-500 border-emerald-300 shadow-emerald-600/40 text-white"
+                          : "bg-red-500 border-red-300 shadow-red-600/40 text-white"),
+                      "rounded-2xl p-4 text-center text-xl font-bold",
+                    )}
+                  >
+                    {CorrectedDate(event.date)}
+                  </div>
+                </motion.div>
+
+                <motion.a
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  href={event.linkOnWiki}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block mt-2 text-md font-bold text-gray-800  text-center underline"
+                >
+                  Подробнее на вики
+                </motion.a>
+              </>
             )}
           </AnimatePresence>
         </div>

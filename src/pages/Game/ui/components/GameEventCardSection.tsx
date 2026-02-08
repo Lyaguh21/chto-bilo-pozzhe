@@ -64,6 +64,7 @@ export default function GameEventCardSection() {
               transition: { duration: 0.5, ease: "easeOut" },
             }}
             event={firstEvent}
+            firstEvent
             onClick={() => handleSelectEvent(firstEvent, secondEvent)}
           />
 
@@ -77,6 +78,7 @@ export default function GameEventCardSection() {
               transition: { duration: 0.5, ease: "easeOut", delay: 0 },
             }}
             event={secondEvent}
+            secondEvent
             onClick={() => handleSelectEvent(secondEvent, firstEvent)}
           />
         </div>
