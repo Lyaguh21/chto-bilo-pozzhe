@@ -53,7 +53,7 @@ export default function GameCompletedModal() {
               Событий больше не осталось, попробуйте новую сложность!
             </p>
 
-            <div className="p-8 text-center">
+            <div className="p-2 sm:p-8 text-center">
               {isNewRecord && (
                 <div
                   id="new-record-badge"

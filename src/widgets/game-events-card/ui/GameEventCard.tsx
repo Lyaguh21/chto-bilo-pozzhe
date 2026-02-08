@@ -37,7 +37,7 @@ export default function GameEventCard({
 
   return (
     <motion.div
-      className="bg-white rounded-3xl shadow-2xl overflow-hidden lg:w-[520px] h-full col-span-3 cursor-pointer flex flex-col "
+      className="bg-white rounded-3xl shadow-2xl overflow-hidden lg:w-[520px] h-full col-span-6 lg:col-span-3 cursor-pointer flex flex-row lg:flex-col"
       whileHover={{
         scale: 1.05,
         boxShadow: "0 20px 40px rgba(99,102,241,0.15)",
@@ -45,7 +45,7 @@ export default function GameEventCard({
       whileTap={{ scale: 0.98 }}
       {...props}
     >
-      <div className="aspect-video lg:h-[320px] overflow-hidden relative">
+      <div className="overflow-hidden relative w-1/3 lg:w-full h-full lg:aspect-video lg:h-[320px]">
         <img
           className="w-full h-full object-cover"
           src={event.imageUrl}
@@ -59,7 +59,7 @@ export default function GameEventCard({
         </div>  */}
       </div>
 
-      <div className="p-2 py-4 md:p-8 flex flex-col justify-between gap-2 md:gap-5 grow">
+      <div className="p-2 py-4 md:p-8 flex flex-col justify-between gap-2 md:gap-5 grow w-2/3 lg:w-full">
         <h3 className="text-xl md:text-2xl font-bold text-gray-800 ">
           {event.name}
         </h3>

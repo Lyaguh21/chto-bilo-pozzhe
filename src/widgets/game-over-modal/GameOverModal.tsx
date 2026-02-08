@@ -45,7 +45,7 @@ export default function GameOverModal() {
               <h2 className="text-white text-3xl font-bold">Игра окончена!</h2>
             </div>
 
-            <div className="p-8 text-center">
+            <div className="p-2 sm:p-8 text-center">
               {isNewRecord && (
                 <div
                   id="new-record-badge"

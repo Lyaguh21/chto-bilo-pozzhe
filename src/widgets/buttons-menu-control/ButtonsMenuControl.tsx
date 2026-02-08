@@ -36,14 +36,14 @@ export default function ButtonMenuControl() {
     <div className="flex gap-4">
       <button
         onClick={handleRestartGame}
-        className="flex-1 bg-linear-to-r from-indigo-500 to-purple-500 text-white px-6 py-4 rounded-2xl font-bold text-lg hover:from-indigo-600 hover:to-purple-600 transition-all transform hover:scale-105 flex items-center justify-center gap-2"
+        className="flex-1 bg-linear-to-r from-indigo-500 to-purple-500 text-white px-4 sm:px-6 py-4 rounded-2xl font-bold text-lg hover:from-indigo-600 hover:to-purple-600 transition-all transform hover:scale-105 flex items-center justify-center gap-2"
       >
         <IconReload />
         Повторить
       </button>
       <button
         onClick={handleMenuNavigate}
-        className="flex-1 bg-gray-100 text-gray-700 px-6 py-4 rounded-2xl font-bold text-lg hover:bg-gray-200 transition-all transform hover:scale-105 flex items-center justify-center gap-2"
+        className="flex-1 bg-gray-100 text-gray-700 px-4 sm:px-6 py-4 rounded-2xl font-bold text-lg hover:bg-gray-200 transition-all transform hover:scale-105 flex items-center justify-center gap-2"
       >
         <IconHomeFilled color="#374151" />В меню
       </button>
