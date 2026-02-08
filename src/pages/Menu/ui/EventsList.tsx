@@ -14,7 +14,7 @@ export default function ViewEvents() {
         iconLeft={<IconChevronLeft size={32} color="white" />}
       />
 
-      <div className="grid grid-cols-9 gap-6">
+      <div className="grid grid-cols-6 gap-6">
         {allHistoryEvents.map((el) => (
           <GameEventCard key={el.id} event={el} />
         ))}

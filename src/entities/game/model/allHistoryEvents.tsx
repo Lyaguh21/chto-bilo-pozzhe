@@ -8,7 +8,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Появление крупных центров ремёсел и управления, давших старт городской цивилизации.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/f/fe/Karte_Mesopotamien.png",
+      "https://i.pinimg.com/originals/4a/ba/3a/4aba3afe9b71c20fdf0e818f2f909861.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Месопотамия",
     difficulty: "medium",
   },
@@ -18,7 +18,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "-3200-01-01",
     description:
       "Рождение системы письма, которая изменила способы хранения знаний и управления.",
-    imageUrl: "",
+    imageUrl:
+      "https://i.pinimg.com/originals/77/dd/8b/77dd8b42f7961ac020a03b153b2029fa.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Клинопись",
     difficulty: "hard",
   },
@@ -51,7 +52,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Городская культура с развитой планировкой и торговыми связями в Южной Азии.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/3/31/Civilt%C3%A0ValleIndoMappa.png",
+      "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_66ea77329f73b700d75cc257_66ea778248b8c60032be514a/scale_1200",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Индская_цивилизация",
     difficulty: "hard",
   },
@@ -61,7 +62,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "-2000-01-01",
     description:
       "Широкое распространение металлургии бронзы ускорило обмен технологиями и рост государств.",
-    imageUrl: "",
+    imageUrl:
+      "https://www.mirmetalla.com/files/Image/news/bronzoviy-vek-metal2.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Бронзовый_век",
     difficulty: "insane",
   },
@@ -71,7 +73,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "-1754-01-01",
     description:
       "Один из первых известных сводов законов, повлиявший на представления о праве и государстве.",
-    imageUrl: "",
+    imageUrl:
+      "https://assets.sutori.com/user-uploads/image/a921e899-cc47-414b-80a8-654446a45d5e/codigo_de_hammurabi.png",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Кодекс_Хаммурапи",
     difficulty: "hard",
   },
@@ -81,7 +84,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "-1600-01-01",
     description:
       "Мощная природная катастрофа, повлиявшая на островные культуры Эгейского региона.",
-    imageUrl: "",
+    imageUrl:
+      "https://cdn.mos.cms.futurecdn.net/a7oASUoJeaikQy7KiU9edY-1920-80.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Извержение_Теры",
     difficulty: "insane",
   },
@@ -92,7 +96,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Период усиления государства на Ниле, расширения влияния и монументального строительства.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Egypt_1450_BC.svg/1920px-Egypt_1450_BC.svg.png",
+      "https://avatars.mds.yandex.net/i?id=bc3c477a94eb87bbc3797fb03b2549a6_l-5275535-images-thumbs&n=13",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Новое_царство",
     difficulty: "medium",
   },
@@ -113,7 +117,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "-1050-01-01",
     description:
       "Упрощение письма, которое облегчило торговлю и распространение грамотности.",
-    imageUrl: "",
+    imageUrl:
+      "https://i.pinimg.com/736x/81/42/6f/81426f897ebce19fd6185f1345f59cb2.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Финикийский_алфавит",
     difficulty: "hard",
   },
@@ -123,7 +128,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "-0814-01-01",
     description:
       "Зарождение морской державы, ставшей ключевым игроком западного Средиземноморья.",
-    imageUrl: "",
+    imageUrl:
+      "https://static1-repo.aif.ru/1/c1/2813807/cd9d1c8a937c507b885ecc16be61abdb.webp",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Карфаген",
     difficulty: "medium",
   },
@@ -133,7 +139,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "-0776-07-01",
     description:
       "Праздник спорта и религии, ставший важной традицией античного мира.",
-    imageUrl: "",
+    imageUrl:
+      "https://avatars.mds.yandex.net/i?id=cd13450825f89cb384274230dbd4061f_l-5235271-images-thumbs&n=13",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Олимпийские_игры_Древней_Греции",
     difficulty: "easy",
   },
@@ -143,7 +150,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "-0753-04-21",
     description:
       "Легендарное начало города, ставшего центром огромной державы и культурным ориентиром для Европы.",
-    imageUrl: "",
+    imageUrl:
+      "https://i.pinimg.com/originals/1a/25/50/1a2550a075fc302e4b939c7b9beeb252.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Основание_Рима",
     difficulty: "easy",
   },
@@ -154,7 +162,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Духовная традиция, распространившаяся далеко за пределы Южной Азии.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Dharma_Wheel_%282%29.svg/1920px-Dharma_Wheel_%282%29.svg.png",
+      "https://avatars.mds.yandex.net/i?id=a40fd970858181da8c1521b915953283_l-5367291-images-thumbs&n=13",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Буддизм",
     difficulty: "medium",
   },
@@ -186,7 +194,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "-0221-12-01",
     description:
       "Формирование единой державы с общей системой управления и стандартов.",
-    imageUrl: "",
+    imageUrl:
+      "https://cs15.pikabu.ru/post_img/2024/09/16/4/og_og_1726465662247740644.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Цинь_Шихуан",
     difficulty: "medium",
   },
@@ -207,8 +216,10 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "-0044-03-15",
     description:
       "Политический заговор, ускоривший переход от республиканских институтов к единоличной власти.",
-    imageUrl: "",
-    linkOnWiki: "https://ru.wikipedia.org/wiki/Убийство_Юлия_Цезаря",
+    imageUrl:
+      "https://static.tildacdn.com/tild3961-3665-4566-b038-613965373437/_.jpg",
+    linkOnWiki:
+      "https://static.tildacdn.com/tild3961-3665-4566-b038-613965373437/_.jpg",
     difficulty: "easy",
   },
   {
@@ -229,7 +240,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Событие, изменившее религиозную жизнь и историю региона на многие поколения.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Second_Temple.jpg/1920px-Second_Temple.jpg",
+      "https://i.ytimg.com/vi/Z3xUzPRMo0s/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gJCgTMA8=&rs=AOn4CLDGrukAYYE9NPuB2fUF4pT1S5TRVw",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Второй_храм",
     difficulty: "hard",
   },
@@ -239,7 +250,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "0079-08-24",
     description:
       "Катастрофа, законсервировавшая целый город и оставившая уникальные свидетельства повседневной жизни античности.",
-    imageUrl: "",
+    imageUrl:
+      "https://static.techno-science.net/illustration/Libre/2024/06/12/6PkdcpC3Rcq43KqbVwRFxw.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Извержение_Везувия_в_79_году",
     difficulty: "easy",
   },
@@ -249,7 +261,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "0220-03-01",
     description:
       "Конец сильной империи и переход к соперничеству государств и полководцев.",
-    imageUrl: "",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/明_《王琼事迹图册》之16经略三关.jpg/1200px-明_《王琼事迹图册》之16经略三关.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Династия_Хань",
     difficulty: "insane",
   },
@@ -260,7 +273,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Сдвиг в религиозной политике, повлиявший на культурный курс империи.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/3/31/%CE%91%CE%9D%CE%A4%CE%99%CE%93%CE%A1%CE%91%CE%A6%CE%9F%CE%9D_%CE%92%CE%91%CE%A3%CE%99%CE%9B%CE%99%CE%9A%CE%A9%CE%9D_%CE%94%CE%99%CE%91%CE%A4%CE%91%CE%9E%CE%95%CE%A9%CE%9D_%CE%95%CE%9A_%CE%A1%CE%A9%CE%9C%CE%91%CE%99%CE%9A%CE%97%CE%A3.png",
+      "https://cont.ws/uploads/pic/2025/4/FireShot%20Capture%202731%20-%2023b59955b8014da6fd93deb33fcb66af.jpg%20%281024×547%29%20-%20www.mccvu.ru.png",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Миланский_эдикт",
     difficulty: "medium",
   },
@@ -270,7 +283,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "0395-01-17",
     description:
       "Рубеж, после которого Запад и Восток пошли разными политическими и культурными траекториями.",
-    imageUrl: "",
+    imageUrl:
+      "https://pic.rutubelist.ru/video/2025-01-30/6e/ab/6eab4e9b265af4f4775b59046f9b53a0.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Разделение_Римской_империи",
     difficulty: "hard",
   },
@@ -280,8 +294,7 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "0476-09-04",
     description:
       "Символическое завершение античной эпохи на Западе и начало долгих изменений в Европе.",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/c/c6/RomulusAugustus.jpg",
+    imageUrl: "https://i.ytimg.com/vi/0fZFMunEPxc/maxresdefault.jpg",
     linkOnWiki:
       "https://ru.wikipedia.org/wiki/Падение_Западной_Римской_империи",
     difficulty: "easy",
@@ -314,7 +327,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1000-01-01",
     description:
       "Дальний морской поход, оставивший след в историях северной Атлантики.",
-    imageUrl: "",
+    imageUrl:
+      "https://www.mirf.ru/backend/wp-content/uploads/2020/10/ffed7067bc758fd1dfd7e726e0fa29ce/x1200-y630.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Л’Анс-о-Медоуз",
     difficulty: "hard",
   },
@@ -325,7 +339,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Решающее сражение изменило элиты, язык и устройство власти на островах.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Battle_of_hastings_ru.svg/1920px-Battle_of_hastings_ru.svg.png",
+      "https://cdn.thecollector.com/wp-content/uploads/2023/03/norman-conquest-battle-hastings.jpg?width=1200&quality=100&dpr=2",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Битва_при_Гастингсе",
     difficulty: "easy",
   },
@@ -336,7 +350,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Кульминация похода, надолго повлиявшего на отношения разных цивилизаций региона.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/5/5c/1099jerusalem.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Taking_of_Jerusalem_by_the_Crusaders%2C_15th_July_1099.jpg/960px-Taking_of_Jerusalem_by_the_Crusaders%2C_15th_July_1099.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Первый_крестовый_поход",
     difficulty: "medium",
   },
@@ -369,7 +383,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Эпидемия, резко изменившая демографию и социальные отношения на континенте.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/1346-1353_spread_of_the_Black_Death_in_Europe_map.svg/1920px-1346-1353_spread_of_the_Black_Death_in_Europe_map.svg.png",
+      "https://habrastorage.org/r/w1560/getpro/habr/upload_files/233/737/291/2337372912b0af34732b9a4f2aa607cb.png",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Чёрная_смерть",
     difficulty: "easy",
   },
@@ -379,7 +393,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1453-05-29",
     description:
       "Смена эпох: завершение истории восточной римской державы и усиление новой региональной силы.",
-    imageUrl: "",
+    imageUrl:
+      "https://gertitashkomd.com/wp-content/uploads/2025/05/Tashko-Fall-of-Constantinople-1453.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Падение_Константинополя",
     difficulty: "easy",
   },
@@ -400,7 +415,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1492-10-12",
     description:
       "Морское путешествие, запустившее масштабные контакты между континентами.",
-    imageUrl: "",
+    imageUrl:
+      "https://images.news.ru/photo/ddafc876-5c7d-11ee-9975-02420a0000c9_780.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Христофор_Колумб",
     difficulty: "easy",
   },
@@ -410,7 +426,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1517-10-31",
     description:
       "Религиозный и общественный раскол, изменивший карту конфессий и политический баланс.",
-    imageUrl: "",
+    imageUrl:
+      "https://avatars.mds.yandex.net/i?id=94ac45fc0224735a703b9a485c021764_l-5354310-images-thumbs&n=13",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Реформация",
     difficulty: "medium",
   },
@@ -420,7 +437,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1522-09-06",
     description:
       "Плавание, подтвердившее глобальные масштабы мира и связавшее океаны маршрутом.",
-    imageUrl: "",
+    imageUrl:
+      "https://grodno-region.gov.by/images/storage/news/011368_994446_big.jpg",
     linkOnWiki:
       "https://ru.wikipedia.org/wiki/Кругосветное_путешествие_Магеллана",
     difficulty: "hard",
@@ -432,7 +450,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Появление влиятельного религиозного ордена, сыгравшего роль в образовании и миссиях.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Ihs-logo.svg/1920px-Ihs-logo.svg.png",
+      "https://avatars.mds.yandex.net/i?id=fe570645bbd4c470573e360aae0e44d76c92dcb7-5291151-images-thumbs&n=13",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Иезуиты",
     difficulty: "insane",
   },
@@ -476,7 +494,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Формулировка принципов, на которых долго строилась физика и инженерия.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Newton%27s_Principia_title_page.png/1920px-Newton%27s_Principia_title_page.png",
+      "https://fsd.multiurok.ru/html/2022/04/17/s_625c6b8ed1152/img8.jpg",
     linkOnWiki:
       "https://ru.wikipedia.org/wiki/Математические_начала_натуральной_философии",
     difficulty: "hard",
@@ -499,7 +517,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Документ, закрепивший разрыв с метрополией и ставший символом новой политической идеологии.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/United_States_Declaration_of_Independence.jpg/1920px-United_States_Declaration_of_Independence.jpg",
+      "https://assets.sutori.com/user-uploads/image/90888736-09e7-406c-b906-ba4e9f0f9386/trumble_declaration.jpeg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Декларация_независимости_США",
     difficulty: "easy",
   },
@@ -510,7 +528,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Событие-символ, после которого в Европе усилилась эпоха массовой политики и реформ.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Prise_de_la_Bastille.jpg/1920px-Prise_de_la_Bastille.jpg",
+      "https://avatars.mds.yandex.net/i?id=ae3a6182d50b7ffc66991693e86b0633_l-5285455-images-thumbs&n=13",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Взятие_Бастилии",
     difficulty: "easy",
   },
@@ -532,7 +550,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Смена политической формы, после которой Европа вошла в период масштабных войн и реформ.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/6/65/Andrea_Appiani%2C_%2C_Kaiserliche_Schatzkammer_Wien_-_Napoleon_I._Bonaparte_%281769-1821%29_als_K%C3%B6nig_von_Italien_-_GG_2346_-_Kunsthistorisches_Museum.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1c/Philippoteaux_-_Lamartine_in_front_of_the_Town_Hall_of_Paris_rejects_the_red_flag.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Наполеон_I",
     difficulty: "medium",
   },
@@ -543,7 +561,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Кампания, ставшая испытанием для армий и переломившая ход европейского противостояния.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/5/55/French_invasion_of_Russia_collage.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/Бородинский_бой_%281812%29.png",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Отечественная_война_1812_года",
     difficulty: "medium",
   },
@@ -554,7 +572,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Старт новой транспортной эпохи, ускорившей связь городов и развитие промышленности.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/f/f6/Opening_Liverpool_and_Manchester_Railway.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Tzarskoselskaya_Railway_-_Watercolour.jpg/960px-Tzarskoselskaya_Railway_-_Watercolour.jpg",
     linkOnWiki:
       "https://ru.wikipedia.org/wiki/Железная_дорога_Ливерпуль_%E2%80%94_Манчестер",
     difficulty: "hard",
@@ -576,7 +594,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1848-02-24",
     description:
       "Массовые выступления и реформы, укрепившие новые политические движения.",
-    imageUrl: "",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Otto_Bache_-_Soldaternes_hjemkomst_til_København_i_1849.jpg/960px-Otto_Bache_-_Soldaternes_hjemkomst_til_København_i_1849.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Революции_1848_года",
     difficulty: "insane",
   },
@@ -585,9 +604,9 @@ export const allHistoryEvents: IGameEvent[] = [
     name: "Публикация теории естественного отбора",
     date: "1859-11-24",
     description:
-      "Идеи, изменившие биологию и представления о развитии жизни на Земле.",
+      "Идеи, изменившие биологию и представления о развитии жизни на Земле опубликованные Чарльзом Дарвином.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Origin_of_Species_title_page.jpg/1920px-Origin_of_Species_title_page.jpg",
+      "https://avatars.mds.yandex.net/i?id=ff5ac4542f02357b6657a88678883d99_l-5345276-images-thumbs&n=13",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Происхождение_видов",
     difficulty: "medium",
   },
@@ -610,7 +629,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Крупнейший внутренний конфликт в истории страны, изменивший общество и устройство власти.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/c/c7/CivilWarUSAColl.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/First_at_Vicksburg.jpg/1280px-First_at_Vicksburg.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Гражданская_война_в_США",
     difficulty: "easy",
   },
@@ -621,7 +640,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Систематизация элементов, ставшая фундаментом для химии и материаловедения.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/7/77/Mengyelejev-Pozsony.jpg",
+      "https://avatars.mds.yandex.net/i?id=7b23d9d5232f0646a54c1ad06847756a_l-4182781-images-thumbs&n=13",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Периодический_закон",
     difficulty: "hard",
   },
@@ -632,7 +651,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Появление нового сильного государства в Европе, изменившего баланс сил на десятилетия.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Germany_%281867%E2%80%931918%29.svg/1920px-Flag_of_Germany_%281867%E2%80%931918%29.svg.png",
+      "https://img.gazeta.ru/files3/96/13445096/Wernerprokla-pic4_zoom-1500x1500-28759.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Германская_империя",
     difficulty: "medium",
   },
@@ -653,7 +672,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1885-02-26",
     description:
       "Международные договорённости, повлиявшие на раздел территорий и судьбы регионов.",
-    imageUrl: "",
+    imageUrl:
+      "https://cdn.britannica.com/21/249621-050-4E4B874E/Bismarck-Berlin-West-Africa-Conference-1884.jpg",
     linkOnWiki:
       "https://ru.wikipedia.org/wiki/Берлинская_конференция_(1884%E2%80%941885)",
     difficulty: "insane",
@@ -665,7 +685,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Находка, которая резко расширила возможности медицины и физики.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Chest_X-ray.jpg/1920px-Chest_X-ray.jpg",
+      "https://uznayvse.ru/images/content/2024/11/6/wilhelm-conrad-x-ray-and-the-first-x-ray_96.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Рентгеновское_излучение",
     difficulty: "medium",
   },
@@ -676,7 +696,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Возрождение спортивного движения мирового масштаба и начало новой традиции международных игр.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/3/31/Athens_1896_report_cover.jpg",
+      "https://s0.rbk.ru/v6_top_pics/media/img/9/00/347218373359009.webp",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Летние_Олимпийские_игры_1896",
     difficulty: "easy",
   },
@@ -687,7 +707,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Шаг к пониманию строения материи и развитию современной физики.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Orbital_s1-ru.svg/1920px-Orbital_s1-ru.svg.png",
+      "https://avatars.mds.yandex.net/i?id=0d238dca9105ac8460b803101babe96d_l-9196574-images-thumbs&n=13",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Электрон",
     difficulty: "hard",
   },
@@ -698,7 +718,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Событие, с которого началась эра авиации и стремительное развитие транспорта.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Wilbur_Wright.jpg/1920px-Wilbur_Wright.jpg",
+      "https://www.heinzhistorycenter.org/wp-content/uploads/2016/11/Vin-Fiz-takes-off.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Братья_Райт",
     difficulty: "easy",
   },
@@ -709,7 +729,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Работа, изменившая представления о пространстве, времени и движении.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/World_line.svg/1920px-World_line.svg.png",
+      "https://avatars.mds.yandex.net/i?id=bcd88bcaea5cdcf113b8d6357f2e4bc5_l-5364211-images-thumbs&n=13",
     linkOnWiki:
       "https://ru.wikipedia.org/wiki/Специальная_теория_относительности",
     difficulty: "insane",
@@ -754,7 +774,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Поворотный момент, запустивший крупные политические и социальные трансформации.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/b/b4/After_the_capture_of_the_Winter_Palace_26_October_1917.jpg",
+      "https://cs15.pikabu.ru/post_img/2024/10/25/8/og_og_1729859818227155363.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Октябрьская_революция",
     difficulty: "medium",
   },
@@ -775,7 +795,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1928-09-28",
     description:
       "Открытие, ставшее основой антибиотиков и изменившее борьбу с инфекциями.",
-    imageUrl: "",
+    imageUrl:
+      "https://cdn-media.tass.ru/width/1360_b6269244/tass/m2/uploads/i/20210726/6253657.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Пенициллин",
     difficulty: "medium",
   },
@@ -786,7 +807,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Финансовый шок, ставший одним из символов крупнейшего экономического спада индустриальной эпохи.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Lange-MigrantMother02.jpg/1920px-Lange-MigrantMother02.jpg",
+      "https://images.a2-finance.com/uploads/2018/09/24/05_48-JbA_2II4f4jTLpSe3UjVtg/StockMarketCrash_1929_BlackTuesday_BlackThursday.png",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Великая_депрессия",
     difficulty: "medium",
   },
@@ -797,7 +818,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Старт крупнейшего военного конфликта XX века, охватившего множество стран и континентов.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/e/ee/WW2_collage.jpg",
+      "https://avatars.mds.yandex.net/i?id=0eab40db67ba2cf7a469cd6e8ae89c96_l-5597454-images-thumbs&n=13",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Вторая_мировая_война",
     difficulty: "easy",
   },
@@ -807,7 +828,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1941-12-07",
     description:
       "Событие, после которого США резко расширили участие в войне на разных театрах.",
-    imageUrl: "",
+    imageUrl:
+      "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_3840,h_2443,g_auto/dpr_auto/f_auto/q_auto:eco/v1/uss-california-and-uss-oklahoma?_a=BAVAZGID0",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Атака_на_Пёрл-Харбор",
     difficulty: "easy",
   },
@@ -829,7 +851,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Событие, открывшее атомную эпоху и изменившее военную и политическую стратегию.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/7/78/Trinity_Test_Fireball_16ms.jpg",
+      "https://cont.ws/uploads/pic/2025/7/1752666390491095_4jbPRhOu.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Тринити_(ядерное_испытание)",
     difficulty: "hard",
   },
@@ -850,7 +872,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1947-08-15",
     description:
       "Конец колониального этапа и начало нового политического устройства в Южной Азии.",
-    imageUrl: "",
+    imageUrl:
+      "https://strategic-culture.su/wp-content/uploads/2025/08/220812020602-09-india-independence-day-analysis-930x520.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Независимость_Индии",
     difficulty: "easy",
   },
@@ -871,7 +894,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1948-05-14",
     description:
       "Создание нового государства и начало сложных региональных изменений на Ближнем Востоке.",
-    imageUrl: "",
+    imageUrl:
+      "https://cdnn21.img.ria.ru/images/07e7/05/0c/1871275939_0:0:2500:1642_1920x1261_80_0_0_8580d1a50048fb77a9c3e456fcb2b863.jpg",
     linkOnWiki:
       "https://ru.wikipedia.org/wiki/Провозглашение_государства_Израиль",
     difficulty: "medium",
@@ -894,7 +918,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Начало космической эры и технологического соперничества, ускорившего развитие науки и техники.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/e/e5/Sputnik-1.jpg",
+      "https://avatars.mds.yandex.net/i?id=33c7a2da7de03b553edb08519a75a1e7_l-5227714-images-thumbs&n=13",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Спутник-1",
     difficulty: "easy",
   },
@@ -915,8 +939,7 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1961-04-12",
     description:
       "Полет, ставший символом возможностей космонавтики и важным моментом для науки и общества.",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA-1.jpg/1920px-%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA-1.jpg",
+    imageUrl: "https://i.ytimg.com/vi/mgoiG0RTTug/maxresdefault.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Восток-1",
     difficulty: "easy",
   },
@@ -927,7 +950,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Опасное обострение холодной войны, когда мир оказался на грани глобального конфликта.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/9/9d/Soviet-R-12-nuclear-ballistic_missile.jpg",
+      "https://icdn.lenta.ru/images/2022/10/15/23/20221015230744538/owl_wide_1440_318e8bf9b86e0194d9d693b9bb31239e.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Карибский_кризис",
     difficulty: "easy",
   },
@@ -937,7 +960,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1964-07-02",
     description:
       "Закрепление принципов равноправия, ставшее важной победой общественного движения.",
-    imageUrl: "",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Little_Rock_integration_protest.jpg/960px-Little_Rock_integration_protest.jpg",
     linkOnWiki:
       "https://ru.wikipedia.org/wiki/Закон_о_гражданских_правах_(США)",
     difficulty: "medium",
@@ -948,7 +972,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1969-07-20",
     description:
       "Кульминация лунной программы и один из самых известных моментов в истории исследований космоса.",
-    imageUrl: "",
+    imageUrl:
+      "https://naked-science.ru/wp-content/uploads/2023/05/image-14-6.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Apollo_11",
     difficulty: "easy",
   },
@@ -959,7 +984,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Технологический рывок, ускоривший развитие персональных устройств и вычислений.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/0/02/80486dx2-large.jpg",
+      "https://avatars.mds.yandex.net/i?id=073b464571e01aea382f9b6dff97a581_l-5147200-images-thumbs&n=13",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Микропроцессор",
     difficulty: "hard",
   },
@@ -969,7 +994,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1973-10-17",
     description:
       "Резкое изменение рынка энергии, повлиявшее на экономику и политику многих стран.",
-    imageUrl: "",
+    imageUrl:
+      "https://avatars.mds.yandex.net/i?id=7ec8adc93a997611732bd0ca056aea8c_l-5451533-images-thumbs&n=13",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Нефтяной_кризис",
     difficulty: "insane",
   },
@@ -979,7 +1005,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1977-01-01",
     description:
       "Развитие молекулярной биологии ускорило биотехнологии и медицину.",
-    imageUrl: "",
+    imageUrl:
+      "https://vsh25.net/wp-content/uploads/2025/10/illustracia-dvoinoi-spirali-dnk-scaled.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/ДНК",
     difficulty: "insane",
   },
@@ -1000,7 +1027,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1986-04-26",
     description:
       "Техногенная авария, изменившая подходы к безопасности атомной энергетики и информационной открытости.",
-    imageUrl: "",
+    imageUrl:
+      "https://87.mchs.gov.ru/uploads/resize_cache/news/2021-04-26/segodnya-35-let-so-dnya-avarii-na-chernobylskoy-aes_1619413993667750745__2000x2000.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Чернобыльская_авария",
     difficulty: "easy",
   },
@@ -1010,7 +1038,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "1989-11-09",
     description:
       "Яркий символ завершения разделения Европы и ускорения политических перемен конца холодной войны.",
-    imageUrl: "",
+    imageUrl:
+      "https://cdn.britannica.com/51/92851-050-1219D91B/People-East-wall-gathering-West-Berlin-Wall-November-10-1989.jpg",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Падение_Берлинской_стены",
     difficulty: "easy",
   },
@@ -1032,7 +1061,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Новая глобальная институция для правил международной торговли и урегулирования споров.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Fourth_Global_Review_of_Aid_for_Trade_1691_%289237986689%29.jpg/1920px-Fourth_Global_Review_of_Aid_for_Trade_1691_%289237986689%29.jpg",
+      "https://ocdn.eu/pulscms-transforms/1/zcUktkqTURBXy9jZTM5NWZmNTdkZjkyYzcxYjI2MWRiNGMwNjk3OTMwZi5qcGVnkpUDAMykzRSIzQuMkwXNBLDNAnY",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Всемирная_торговая_организация",
     difficulty: "insane",
   },
@@ -1054,7 +1083,8 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "2001-09-11",
     description:
       "Террористические атаки, которые повлияли на мировую безопасность, политику и авиационные правила.",
-    imageUrl: "",
+    imageUrl:
+      "https://live-production.wcms.abc-cdn.net.au/b6dbdb528840bcb41ab7d7cf658ee9b8?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=272&width=862&height=485",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Теракты_11_сентября",
     difficulty: "easy",
   },
@@ -1065,7 +1095,7 @@ export const allHistoryEvents: IGameEvent[] = [
     description:
       "Сдвиг в повседневной коммуникации и потреблении цифровых сервисов по всему миру.",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/4/45/IPhone_First_Generation.jpg",
+      "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_68ac3714829300583cddffcd_68ac37168407cf5f38090bbe/scale_1200",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Смартфон",
     difficulty: "medium",
   },
@@ -1075,8 +1105,7 @@ export const allHistoryEvents: IGameEvent[] = [
     date: "2020-03-11",
     description:
       "Глобальный кризис здравоохранения, повлиявший на экономику, повседневную жизнь и международные связи.",
-    imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/d/d3/COVID-19_Nurse_%28cropped%29.jpg",
+    imageUrl: "https://i.insider.com/5edff686f34d0506650f52d2",
     linkOnWiki: "https://ru.wikipedia.org/wiki/Пандемия_COVID-19",
     difficulty: "easy",
   },

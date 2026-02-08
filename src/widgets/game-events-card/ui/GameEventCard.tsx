@@ -21,17 +21,17 @@ export default function GameEventCard({
       {...props}
     >
       <div className="aspect-video lg:h-[320px] overflow-hidden relative">
-        {/* <img
+        <img
           className="w-full h-full object-cover"
-          // src={event.imageUrl}
+          src={event.imageUrl}
           alt={event.name}
-        /> */}
-        <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent flex justify-center items-center">
+        />
+        {/* <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent flex justify-center items-center">
           <h2 className="text-2xl font-extrabold text-gray-600 text-center ">
             {event.name}
-            {/* {event.date} */}
+            {/* {event.date}
           </h2>
-        </div>
+        </div>  */}
       </div>
 
       <div className="p-2 py-4 md:p-8 flex flex-col justify-between gap-2 md:gap-5 grow">

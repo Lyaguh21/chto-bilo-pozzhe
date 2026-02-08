@@ -17,7 +17,7 @@ export const nextRound = createAsyncThunk<void, void, { state: RootState }>(
     const historyEvents = allHistoryEvents;
     const notUsedIds = state.game.notUsedIds;
 
-    //* создаем новое событие из тех которых не было
+    //* создаем новое событие из тех которых еще не было
     const first =
       historyEvents[notUsedIds[Math.floor(Math.random() * notUsedIds.length)]];
 
