@@ -14,7 +14,7 @@ export default function CorrectIndicator() {
         "aspect-square p-1! md:p-3! col-span-1  items-center justify-center z-10 hidden sm:flex border-4 border-white/45",
       )}
     >
-      {roundStatus === "succeeded" && (
+      {(roundStatus === "succeeded" || roundStatus === "animating") && (
         <motion.div
           initial={{ scale: 0.5, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}

@@ -4,7 +4,6 @@ import {
   setVisibleNextRoundButton,
 } from "@/entities/view";
 
-import { nextRound } from "@/features/game";
 import { useAppDispatch, useAppSelector } from "@/shared/lib";
 import { Button } from "@/shared/ui/button";
 import { IconChevronRight } from "@tabler/icons-react";
@@ -32,9 +31,9 @@ export default function ButtonsControl() {
               text={"Далее"}
               iconRight={<IconChevronRight size={32} />}
               onClick={() => {
-                dispatch(setRoundStatus("idle"));
+                //* Запускает анимацию, она в свою очередь диспачит начало следующего раунда
+                dispatch(setRoundStatus("animating"));
                 dispatch(setVisibleNextRoundButton(false));
-                dispatch(nextRound());
               }}
               disabled={!visibleNextButton}
             />

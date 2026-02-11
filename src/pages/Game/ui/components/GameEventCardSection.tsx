@@ -9,6 +9,7 @@ import {
 } from "@/entities/game";
 
 import { useAppSelector, useAppDispatch } from "@/shared/lib";
+import { useEffect, useRef } from "react";
 
 import CorrectIndicator from "./CorrectIndicator";
 import {
@@ -17,7 +18,7 @@ import {
 } from "@/entities/view";
 
 import cn from "classnames";
-import { CalculatedAddScore } from "@/features/game";
+import { CalculatedAddScore, nextRound } from "@/features/game";
 
 export default function GameEventCardSection() {
   const roundStatus = useAppSelector(selectGameRoundStatus);
@@ -26,28 +27,48 @@ export default function GameEventCardSection() {
 
   const dispatch = useAppDispatch();
 
-  //* Что происходит при выборе события
+  const outTimerRef = useRef<number | null>(null);
+
+  const isAnimatingOut = roundStatus === "animating";
+
+  useEffect(() => {
+    if (!isAnimatingOut) return;
+
+    outTimerRef.current = window.setTimeout(() => {
+      // после exit-анимации
+      dispatch(nextRound());
+      dispatch(setRoundStatus("idle"));
+      outTimerRef.current = null;
+    }, 800);
+
+    return () => {
+      if (outTimerRef.current) {
+        clearTimeout(outTimerRef.current);
+        outTimerRef.current = null;
+      }
+    };
+  }, [isAnimatingOut, dispatch]);
+
   const handleSelectEvent = (
     selectEvent: IGameEvent,
     notSelectEvent: IGameEvent,
   ) => {
-    if (roundStatus === "idle") {
-      if (
-        Number(selectEvent.date.slice(0, 4)) >
-        Number(notSelectEvent.date.slice(0, 4))
-      ) {
-        //* Если все успешно
-        dispatch(setRoundStatus("succeeded"));
-        dispatch(CalculatedAddScore());
-        dispatch(addOneToStreak());
-        dispatch(setVisibleNextRoundButton(true));
-      } else {
-        //* Если провал
-        dispatch(setRoundStatus("failed"));
-        dispatch(setVisibleGameOverModal(true));
-      }
+    if (roundStatus !== "idle") return;
+
+    if (
+      Number(selectEvent.date.slice(0, 4)) >
+      Number(notSelectEvent.date.slice(0, 4))
+    ) {
+      dispatch(setRoundStatus("succeeded"));
+      dispatch(CalculatedAddScore());
+      dispatch(addOneToStreak());
+      dispatch(setVisibleNextRoundButton(true));
+    } else {
+      dispatch(setRoundStatus("failed"));
+      dispatch(setVisibleGameOverModal(true));
     }
   };
+
   return (
     <>
       {firstEvent && secondEvent && (
@@ -58,11 +79,19 @@ export default function GameEventCardSection() {
         >
           <GameEventCard
             initial={{ x: -200, opacity: 0 }}
-            animate={{
-              x: 0,
-              opacity: 1,
-              transition: { duration: 0.5, ease: "easeOut" },
-            }}
+            animate={
+              isAnimatingOut
+                ? {
+                    x: -500,
+                    opacity: 0,
+                    transition: { duration: 0.5, ease: "easeOut" },
+                  }
+                : {
+                    x: 0,
+                    opacity: 1,
+                    transition: { duration: 0.5, ease: "easeOut" },
+                  }
+            }
             event={firstEvent}
             firstEvent
             onClick={() => handleSelectEvent(firstEvent, secondEvent)}
@@ -72,11 +101,19 @@ export default function GameEventCardSection() {
 
           <GameEventCard
             initial={{ x: 200, opacity: 0 }}
-            animate={{
-              x: 0,
-              opacity: 1,
-              transition: { duration: 0.5, ease: "easeOut", delay: 0 },
-            }}
+            animate={
+              isAnimatingOut
+                ? {
+                    x: 500,
+                    opacity: 0,
+                    transition: { duration: 0.5, ease: "easeOut" },
+                  }
+                : {
+                    x: 0,
+                    opacity: 1,
+                    transition: { duration: 0.5, ease: "easeOut" },
+                  }
+            }
             event={secondEvent}
             secondEvent
             onClick={() => handleSelectEvent(secondEvent, firstEvent)}

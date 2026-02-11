@@ -13,6 +13,7 @@ export default function GameEventCard({
   event,
   firstEvent,
   secondEvent,
+
   ...props
 }: {
   event: IGameEvent;
