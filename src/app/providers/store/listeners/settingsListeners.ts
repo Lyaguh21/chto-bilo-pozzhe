@@ -5,7 +5,7 @@ import { isAnyOf } from "@reduxjs/toolkit";
 export function settingsListeners() {
   startAppListening({
     matcher: isAnyOf(setGameMode),
-    effect: async (action, listenerApi) => {
+    effect: async (_action, listenerApi) => {
       localStorage.setItem(
         "gameMode",
         listenerApi.getState().settings.selectGameMode ?? "",
@@ -15,7 +15,7 @@ export function settingsListeners() {
 
   startAppListening({
     matcher: isAnyOf(setCategory),
-    effect: async (action, listenerApi) => {
+    effect: async (_action, listenerApi) => {
       localStorage.setItem(
         "category",
         listenerApi.getState().settings.selectCategory ?? "",
@@ -25,7 +25,7 @@ export function settingsListeners() {
 
   startAppListening({
     matcher: isAnyOf(setDifficulty),
-    effect: async (action, listenerApi) => {
+    effect: async (_action, listenerApi) => {
       localStorage.setItem(
         "difficulty",
         listenerApi.getState().settings.selectDifficulty ?? "",
