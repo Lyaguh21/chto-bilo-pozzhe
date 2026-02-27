@@ -19,7 +19,7 @@ export default function CategoryCard({
     <button
       disabled={category.soon}
       className={cn(
-        "col-span-2 lg:col-span-1 category-btn bg-white/15 hover:bg-white/25 backdrop-blur-sm rounded-2xl p-4 transition-all duration-300 border-2 border-transparent hover:border-white/40 hover:scale-105  disabled:hover:scale-100 disabled:border-0",
+        "relative col-an-2 lg:col-span-1 category-btn bg-white/15 hover:bg-white/25 backdrop-blur-sm rounded-2xl p-4 transition-all duration-300 border-2 border-transparent hover:border-white/40 hover:scale-105  disabled:hover:scale-100 disabled:border-0",
         {
           "scale-[106%] md:scale-110 border-white/50 shadow-md shadow-white/20":
             selectedCategory === category.key,
